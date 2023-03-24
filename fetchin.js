@@ -37,11 +37,11 @@ async function fetchCategory (){
            console.log(err)
        }
 }
-function btnClick(){
+function btnClick( ){
     fetchData()
 };
 
-function categoryClick(){
+function categoryClick( ){
     fetchCategory
     
 }
